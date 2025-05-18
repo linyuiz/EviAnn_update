@@ -37,6 +37,7 @@ Here is the list of the dependencies included with the EviAnn package:
 11. miniprot v0.15-r270 -- compiles on install
 
 # Prepare Data
+
 You can prepare the data as I do: RNA data must end with .fq.gz or .fastq.gz, and protein files must end with .pep.fa. No GFF file is needed, only the protein file is required.
 <div align="center"><img src="https://s2.loli.net/2025/05/17/PpWTgnz9wuBRviG.png" alt="Your Image Description" /></div>
 
@@ -58,8 +59,13 @@ Example1:
 ```
 
 # Run log
+
 Here are the results of a test conducted on a fish genome. EviAnn estimated the final gene count to be approximately 25,000 , which is consistent with the published version that also reports around 25,000 genes.
 <div align="center"><img src="https://s2.loli.net/2025/05/18/sVYTAckwehzGnKR.png" alt="Your Image Description" /></div>
+
+# Main output
+
+In the output directory, the main files include: EviAnn.gene.gff, EviAnn.pep.fa, EviAnn.cds.fa, and EviAnn.transcripts.fa, which are the gene GFF3 file with pseudogene annotations, protein sequences, CDS sequences, and transcript sequences, respectively.
 
 # Interpreting the output
 
