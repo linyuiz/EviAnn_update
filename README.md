@@ -17,24 +17,7 @@ The installation script will configure and make all necessary packages.  The Evi
 
 ## Dependencies:
 
-EviAnn requires the following external dependencies to be installed and available on the system $PATH:
-
-1. minimap2: https://github.com/lh3/minimap2
-2. HISAT2: https://github.com/DaehwanKimLab/hisat2
-
-Here is the list of the dependencies included with the EviAnn package:
-
-1. StringTie version 2.2.1 -- static executable
-2. gffread version 0.12.7 -- static executable
-3. gffread version 0.12.6 -- static executable
-4. blastp version 2.8.1+ -- static executable
-5. tblastn version 2.8.1+ -- static executable
-6. makeblastdb version 2.8.1+ -- static executable
-7. exonerate version 2.4.0 -- static executable
-8. TransDecoder version 5.7.1 -- compiles on install
-9. samtools version 1.15.1 -- compiles on install
-10. ufasta version 1.0 -- compiles on install
-11. miniprot v0.15-r270 -- compiles on install
+For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies
 
 # Prepare Data
 
