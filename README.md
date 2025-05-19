@@ -41,6 +41,7 @@ Example1:
 
         zgtools EviAnn 00.used_data/genome.fa 00.used_data/00.homo_data/ 00.used_data/01.RNA_data/ 60 3 Pair_NGS
 ```
+Note that the total Threads are threads multiplied by Parallel Task Num, for example: 60 x 3 = 180 threads.
 
 # Run log
 
