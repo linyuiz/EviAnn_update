@@ -28,17 +28,18 @@ You can prepare the data as I do: RNA data must end with .fq.gz or .fastq.gz, an
 ```
 Usage:
 
-        zgtools EviAnn genome.fa Pep_dir/ RNAseq_dir/ 60 3
+        zgtools EviAnn genome.fa Pep_dir/ RNAseq_dir/ 60 3 Pair_NGS
 
         genome.fa             --Genome File
 	Pep_dir/              --Homo Pep Dir
         RNAseq_dir/           --RNAseq Dir
         60                    --Threads
         3                     --Parallel Task Num
+	Pair_NGS              --RNAseq Type(Pair_NGS/Single_NGS)
 
 Example1:
 
-        zgtools EviAnn 00.used_data/genome.fa 00.used_data/00.homo_data/ 00.used_data/01.RNA_data/ 60 3
+        zgtools EviAnn 00.used_data/genome.fa 00.used_data/00.homo_data/ 00.used_data/01.RNA_data/ 60 3 Pair_NGS
 ```
 
 # Run log
