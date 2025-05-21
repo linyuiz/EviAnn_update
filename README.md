@@ -22,6 +22,7 @@ For the dependencies of this software, please refer to: https://github.com/aleks
 # Prepare Data
 
 You can prepare the data as I do: RNA data must end with .fq.gz/.fq or .fastq/.fastq.gz, and protein files must end with .pep.fa. No GFF file is needed, only the protein file is required.
+
 For homologous proteins, it is recommended to download more sequences. Generally, selecting protein data from 5 closely related species is sufficient. If the BUSCO completeness score is not high enough, you can expand the range of closely related species and include more proteins, even up to one million proteins. Additionally, you can use the BUSCO database proteins as input files, such as copying the "embryophyta_odb10/ancestral" file as "embryophyta_odb10.pep.fa".
 <div align="center"><img src="https://s2.loli.net/2025/05/17/PpWTgnz9wuBRviG.png" alt="Your Image Description" /></div>
 
