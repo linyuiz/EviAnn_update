@@ -31,7 +31,7 @@ It now also supports inputting a GFF file for de novo prediction as evidence. Th
 /project/99.EviAnn/00.used_data/Augustus.gff
 /project/99.EviAnn/00.used_data/GeneMark.gff
 ```
-<div align="center"><img src="https://s2.loli.net/2025/05/17/PpWTgnz9wuBRviG.png" alt="Your Image Description" /></div>
+<div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 60%;"/></div>
 
 # Usage:
 ```
