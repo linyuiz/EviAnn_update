@@ -33,7 +33,7 @@ It now also supports inputting a GFF file for de novo prediction as evidence. Th
 
 Example:
 ```
-<div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 70%;"/></div>
+<div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 80%;"/></div>
 
 # Usage:
 ```
