@@ -35,6 +35,7 @@ Example:
 <div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 80%;"/></div>
 
 # Usage:
+You just need to soft link zgtools to your usual bin folder such as~/bin, or use an absolute path such as/project/zgtools_softawre/zgtools EviAnn ***
 ```
 Usage:
 
