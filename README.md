@@ -28,7 +28,7 @@ sudo apt install pv
 sudo yum install pv # CentOS 7
 sudo dnf install pv # CentOS 8/Fedora
 
-③compile install:
+③Compile install:
 http://www.ivarch.com/programs/pv.shtml
 ```
 
