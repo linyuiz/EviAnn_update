@@ -74,8 +74,6 @@ Example2:
 Note that the total Threads are threads multiplied by Parallel Task Num, for example: 60 x 3 = 180 threads.
 
 # Run log
-
-Here are the results of a test conducted on a fish genome. EviAnn estimated the final gene count to be approximately 25,000 , which is consistent with the published version that also reports around 25,000 genes.
 <div align="center"><img src="https://s2.loli.net/2025/05/26/NUJnhzirDsOAZlk.png" alt="Your Image Description" style="width: 90%;"/></div>
 
 # Main output
