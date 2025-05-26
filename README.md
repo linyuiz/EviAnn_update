@@ -15,7 +15,7 @@ $ mamba install seqkit TransDecoder minimap2 hisat2 #or conda install
 ```
 The installation script will configure and make all necessary packages.  The EviAnn executables will appear under zgtools-EviAnn_2.0.2/.  You can run EviAnn from anywhere by executing zgtools-EviAnn_2.0.2/zgtools
 
-## Dependencies:
+## Dependencies
 
 For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies. 
 In addition to the seqkit and hisat2 software, the pv command is also required and can be installed as follows:
@@ -47,7 +47,8 @@ It now also supports inputting a GFF file for de novo prediction as evidence. Th
 Example:
 <div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 80%;"/></div>
 
-# Usage:
+# Usage
+
 You just need to soft link zgtools to your usual bin folder such as【~/bin】, or use an absolute path such as【/project/softawre/zgtools-EviAnn_2.0.2_v2/zgtools EviAnn】, Be sure to have【hisat2】and【seqkit】in your $PATH.
 ```shell
 Usage:
@@ -74,6 +75,7 @@ Example2:
 Note that the total Threads are threads multiplied by Parallel Task Num, for example: 60 x 3 = 180 threads.
 
 # Run log
+
 This is the command【zgtools EviAnn genome.fa 00.homo_data/ 01.RNA_data/ 60 3 Pair_NGS other.gff.list】runtime log:
 <div align="center"><img src="https://s2.loli.net/2025/05/26/h6T4own1t5gMWmu.png" alt="Your Image Description" style="width: 90%;"/></div>
 
