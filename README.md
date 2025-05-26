@@ -18,6 +18,19 @@ The installation script will configure and make all necessary packages.  The Evi
 ## Dependencies:
 
 For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies
+In addition to the seqkit and hisat2 software, the pv command is also required and can be installed as follows:
+```
+①Debian/Ubuntu and derivatives：
+sudo apt update
+sudo apt install pv
+
+②RHEL/CentOS/Fedora:
+sudo yum install pv # CentOS 7
+sudo dnf install pv # CentOS 8/Fedora
+
+③configure install
+http://www.ivarch.com/programs/pv.shtml
+```
 
 # Prepare Data
 
