@@ -74,7 +74,7 @@ Example2:
 Note that the total Threads are threads multiplied by Parallel Task Num, for example: 60 x 3 = 180 threads.
 
 # Run log
-This is the command:【zgtools EviAnn genome.fa 00.homo_data/ 01.RNA_data/ 60 3 Pair_NGS other.gff.list】runtime log:
+This is the command【zgtools EviAnn genome.fa 00.homo_data/ 01.RNA_data/ 60 3 Pair_NGS other.gff.list】runtime log:
 <div align="center"><img src="https://s2.loli.net/2025/05/26/NUJnhzirDsOAZlk.png" alt="Your Image Description" style="width: 90%;"/></div>
 
 # Main output
