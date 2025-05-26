@@ -17,7 +17,7 @@ The installation script will configure and make all necessary packages.  The Evi
 
 ## Dependencies:
 
-For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies
+For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies. 
 In addition to the seqkit and hisat2 software, the pv command is also required and can be installed as follows:
 ```
 ①Debian/Ubuntu and derivatives：
