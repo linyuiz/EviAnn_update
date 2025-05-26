@@ -5,7 +5,7 @@ EviAnn (Evidence Annotation) is novel genome annotation software. It is purely e
 # Installation instructions
 
 To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn_update/releases. 
-```
+```shell
 $ wget https://github.com/linyuiz/EviAnn_update/releases/download/v2.02-2/zgtools-EviAnn_2.0.2_v2.tar.gz
 $ tar -xvzf zgtools-EviAnn_*.tar.gz
 $ cd zgtools-EviAnn_*
@@ -19,7 +19,7 @@ The installation script will configure and make all necessary packages.  The Evi
 
 For the dependencies of this software, please refer to: https://github.com/alekseyzimin/EviAnn_release?tab=readme-ov-file#dependencies. 
 In addition to the seqkit and hisat2 software, the pv command is also required and can be installed as follows:
-```
+```shell
 ①Debian/Ubuntu and derivatives：
 sudo apt update
 sudo apt install pv
@@ -49,7 +49,7 @@ Example:
 
 # Usage:
 You just need to soft link zgtools to your usual bin folder such as【~/bin】, or use an absolute path such as【/project/softawre/zgtools-EviAnn_2.0.2_v2/zgtools EviAnn】, Be sure to have【hisat2】and【seqkit】in your $PATH.
-```
+```shell
 Usage:
 
         zgtools EviAnn genome.fa Pep_dir/ RNAseq_dir/ 60 3 Pair_NGS other.gff.list
