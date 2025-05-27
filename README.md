@@ -6,12 +6,12 @@ EviAnn (Evidence Annotation) is novel genome annotation software. It is purely e
 
 To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn_update/releases. 
 ```shell
-$ wget https://github.com/linyuiz/EviAnn_update/releases/download/v2.02-2/zgtools-EviAnn_2.0.2_v2.tar.gz
-$ tar -xvzf zgtools-EviAnn_*.tar.gz
-$ cd zgtools-EviAnn_*
-$ export LD_LIBRARY_PATH=/usr/lib64:/lib64
-$ ./install.sh
-$ mamba install seqkit TransDecoder minimap2 hisat2 #or conda install
+wget https://github.com/linyuiz/EviAnn_update/releases/download/v2.02-2/zgtools-EviAnn_2.0.2_v2.tar.gz
+tar -xvzf zgtools-EviAnn_*.tar.gz
+cd zgtools-EviAnn_*
+export LD_LIBRARY_PATH=/usr/lib64:/lib64
+./install.sh
+mamba install seqkit TransDecoder minimap2 hisat2 #or conda install
 ```
 The installation script will configure and make all necessary packages.  The EviAnn executables will appear under zgtools-EviAnn_2.0.2/.  You can run EviAnn from anywhere by executing zgtools-EviAnn_2.0.2/zgtools
 
