@@ -2,6 +2,8 @@
 
 EviAnn (Evidence Annotation) is novel genome annotation software. It is purely evidence-based. EviAnn derives protein-coding gene and long non-coding RNA annotations from RNA-seq data and/or transcripts, and alignments of proteins from related species. EviAnn outputs annotations in GFF3 format. EviAnn does not require genome repeats to be soft-masked prior to running annotation. EviAnn is stable and fast. Annotation of a mouse (M.musculus)  genome takes less than one hour on a single 24 core Intel Xeon Gold server (assuming input of aligned RNA-seq reads in BAM format and ~346Mb of protein sequences from several related species including human). 
 
+If you encounter any issues, feel free to ask in the issue section. Please also support the original authors. If you use EviAnn, kindly cite it: Efficient evidence-based genome annotation with EviAnn Aleksey V. Zimin, Daniela Puiu, Mihaela Pertea, James A. Yorke, Steven L. Salzberg bioRxiv 2025.05.07.652745; doi: https://doi.org/10.1101/2025.05.07.652745
+
 # Installation instructions
 
 To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn_update/releases. 
