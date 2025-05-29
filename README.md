@@ -36,7 +36,7 @@ http://www.ivarch.com/programs/pv.shtml
 
 # Prepare Data
 
-You can prepare the data as I do: RNA data must end with .fq.gz/.fq or .fastq/.fastq.gz, and protein files must end with .pep.fa. No GFF file is needed, only the protein file is required.
+You can prepare the data as I do: RNA data must end with .fq.gz/.fq or .fastq/.fastq.gz, and protein files must end with .pep.fa. No GFF file is needed, only the protein file is required.Note that formats like _R1.clean.fq.gz are not allowed; only {1,2}.fq.gz types are permitted.
 
 For homologous proteins, it is recommended to download more sequences. Generally, selecting protein data from 5 closely related species is sufficient. If the BUSCO completeness score is not high enough, you can expand the range of 
 closely related species and include more proteins, even up to one million proteins. Additionally, you can use the BUSCO database proteins as input files, such as copying the "embryophyta_odb10/ancestral" file as "embryophyta.pep.fa".
