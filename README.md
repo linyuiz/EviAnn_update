@@ -1,5 +1,6 @@
 # NOICE
-⭐️This module is currently being upgraded, please do not use it for the time being.⭐️
+⭐️This module is currently being upgraded, please do not use it for the time being.     
+⭐️Please wait for the update（https://github.com/linyuiz/zgtools）
 
 # EviAnn -- evidence-based eukaryotic genome annotation software
 
