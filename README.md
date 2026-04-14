@@ -1,12 +1,20 @@
+<div align="center"><img alt="image" src="https://github.com/user-attachments/assets/729a8e17-94a4-492a-8d01-c902303c06a1" width=50%/>
+
+---
+
 # NOICE
 ⭐️This module is currently being upgraded, please do not use it for the time being.     
 ⭐️Please wait for the update（ https://github.com/linyuiz/zgtools ）
+
+---
 
 # EviAnn -- evidence-based eukaryotic genome annotation software
 
 EviAnn (Evidence Annotation) is novel genome annotation software. It is purely evidence-based. EviAnn derives protein-coding gene and long non-coding RNA annotations from RNA-seq data and/or transcripts, and alignments of proteins from related species. EviAnn outputs annotations in GFF3 format. EviAnn does not require genome repeats to be soft-masked prior to running annotation. EviAnn is stable and fast. Annotation of a mouse (M.musculus)  genome takes less than one hour on a single 24 core Intel Xeon Gold server (assuming input of aligned RNA-seq reads in BAM format and ~346Mb of protein sequences from several related species including human). 
 
 If you encounter any issues, feel free to ask in the issue section. Please also support the original authors. If you use EviAnn, kindly cite it: 【Efficient evidence-based genome annotation with EviAnn Aleksey V. Zimin, Daniela Puiu, Mihaela Pertea, James A. Yorke, Steven L. Salzberg bioRxiv 2025.05.07.652745; doi: https://doi.org/10.1101/2025.05.07.652745 】
+
+---
 
 # Installation instructions
 
@@ -20,6 +28,8 @@ export LD_LIBRARY_PATH=/usr/lib64:/lib64
 mamba install agat seqkit TransDecoder minimap2 hisat2 #or conda install
 ```
 The installation script will configure and make all necessary packages.  The EviAnn executables will appear under zgtools-EviAnn_2.0.2/.  You can run EviAnn from anywhere by executing zgtools-EviAnn_2.0.2/zgtools
+
+---
 
 ## Dependencies
 
@@ -38,6 +48,8 @@ sudo dnf install pv # CentOS 8/Fedora
 http://www.ivarch.com/programs/pv.shtml
 ```
 
+---
+
 # Prepare Data
 
 You can prepare the data as I do: RNA data must end with .fq.gz/.fq or .fastq/.fastq.gz, and protein files must end with .pep.fa. No GFF file is needed, only the protein file is required.Note that formats like _R1.clean.fq.gz are not allowed; only {1,2}.fq.gz types are permitted.
@@ -52,6 +64,8 @@ It now also supports inputting a GFF file for de novo prediction as evidence. Th
 ```
 Example:
 <div align="center"><img src="https://s2.loli.net/2025/05/21/1wOi27hSgPal6Dv.png" alt="Your Image Description" style="width: 80%;"/></div>
+
+---
 
 # Usage
 
@@ -80,10 +94,14 @@ Example2:
 ```
 Note that the total Threads are threads multiplied by Parallel Task Num, for example: 60 x 3 = 180 threads.
 
+---
+
 # Run log
 
 This is the command【zgtools EviAnn genome.fa 00.homo_data/ 01.RNA_data/ 60 3 Pair_NGS other.gff.list】runtime log:
 <div align="center"><img src="https://s2.loli.net/2025/05/26/h6T4own1t5gMWmu.png" alt="Your Image Description" style="width: 90%;"/></div>
+
+---
 
 # Main output
 
