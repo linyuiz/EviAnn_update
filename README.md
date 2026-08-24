@@ -18,9 +18,9 @@ If you encounter any issues, feel free to ask in the issue section. Please also 
 
 # Installation instructions
 
-To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn_update/releases. 
+To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn-mod/releases. 
 ```shell
-wget https://github.com/linyuiz/EviAnn_update/releases/download/v2.02-2/zgtools-EviAnn_2.0.2_v2.tar.gz
+wget https://github.com/linyuiz/EviAnn-mod/releases/download/v2.02-2/zgtools-EviAnn_2.0.2_v2.tar.gz
 tar -xvzf zgtools-EviAnn_*.tar.gz
 cd zgtools-EviAnn_*
 export LD_LIBRARY_PATH=/usr/lib64:/lib64
