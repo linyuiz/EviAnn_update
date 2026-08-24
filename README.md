@@ -16,6 +16,15 @@ If you encounter any issues, feel free to ask in the issue section. Please also 
 
 ---
 
+# Other modified versions of the software
+⭐️ For the modified version of annotation tool `EviAnn`, please visit: [EviAnn-mod](https://github.com/linyuiz/EviAnn-mod) (Not recommended for now, currently under upgrade)  
+
+⭐️ For the modified version of TE transposon annotation tool `EDTA`, please visit: [EDTA-mod](https://github.com/linyuiz/EDTA-mod) (Beta version)  
+
+⭐️ For the modified version of scaffolding tool `C-Phasing`, please visit: [CPhasing-mod](https://github.com/linyuiz/CPhasing-mod) (Beta version)
+
+---
+
 # Installation instructions
 
 To install, first download the latest distribution tarball：zgtools-EviAnn_*.tar.gz (not one of the Source code files!) from the github release page：https://github.com/linyuiz/EviAnn-mod/releases. 
